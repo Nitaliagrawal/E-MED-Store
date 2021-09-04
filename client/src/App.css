@@ -1,0 +1,15 @@
+body{
+  background-color: #7bbd4d;
+}
+.App-logo {
+  width: 15%;
+}
+
+@media only screen and (max-width: 400px) {
+  .App-logo {
+    width: 10%;
+  }
+}
+
+
+
