@@ -36,7 +36,7 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/Login">Login</NavLink>
+                            <NavLink className="nav-link" to="/login">Login</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/signup">Registration</NavLink>
