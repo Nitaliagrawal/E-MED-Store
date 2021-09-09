@@ -44,14 +44,15 @@ body {
 }
 
 .signup-content {
-  padding: 40px 0;
+  padding: 30px 10px;
 }
 .signup-form,
 .signin-form,
 .signin-image {
-  width: 50%;
+  width: 60%;
   overflow: hidden;
 }
+ 
 .material-icons-name {
   font-size: 18px;
 }
@@ -59,11 +60,7 @@ body {
 .signup-form {
   margin-left: 75px;
   margin-right: 75px;
-  padding-left: 34px;
-}
-
-.register-form {
-  width: 100%;
+  padding-left: 30px;
 }
 
 .form-group {
@@ -71,9 +68,7 @@ body {
   margin-bottom: 25px;
   overflow: hidden;
 }
-
-
-input {
+input,textarea {
   width: 100%;
   display: block;
   border: none;
@@ -82,9 +77,10 @@ input {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
 input:focus,
 textarea:focus {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #222 !important;
 }
 label {
   position: absolute;
@@ -106,8 +102,22 @@ textarea:focus {
 }
 .signup-image{
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 400px) {
+  .signup-form {
+    margin-left: 5px;
+    padding-left: 2px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .signup-form {
+    margin-left: 5px;
+    padding-left: 2px;
+    width: 100%;
+  }
+}
+
 

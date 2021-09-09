@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import signupimg from "../images/signupimg.jpg";
+import signup from "../images/signup.svg";
 
 const Signup = () => {
     return (
@@ -9,7 +10,7 @@ const Signup = () => {
                 <div className="container mt-5">
                     <div className="signup-content">
                         <div className="row">
-                            <div className="col-md-7 col-sm-6">
+                            <div className="col-md-6 col-sm-7">
                                 <div className="signup-form">
                                     <h2 className="form-title">Sign up</h2>
                                     <form className="register-form" id="register-form">
@@ -45,14 +46,14 @@ const Signup = () => {
                                             <label htmlFor="cpassword">
                                                 <i className="zmdi zmdi-lock material-icons-name"></i>
                                             </label>
-                                            <input type="text" name="cpassword" id="cpassword" placeholder="Confirm your Password" />
+                                            <input type="text" name="cpassword" id="cpassword" placeholder="Confirm Password" />
                                         </div>
 
                                         <div className="form-group">
                                             <label htmlFor="address">
-                                                <i className="zmdi zmdi-lock material-icons-name"></i>
+                                                <i className="zmdi zmdi-pin material-icons-name"></i>
                                             </label>
-                                            <textarea  id="address" rows="3" cols="44"  placeholder="Your address"></textarea>
+                                            <textarea  id="address" rows="2" cols="44"  placeholder="Your address"></textarea>
                                         </div>
 
                                         <div className="form-group form-button">
@@ -61,10 +62,10 @@ const Signup = () => {
                                     </form>
                                 </div>
                             </div>
-                            <div className="col-md-5 col-sm-6">
+                            <div className="col-md-6 col-sm-5">
                                 <div className="signup-image">
                                     <figure>
-                                        <img src={signupimg} alt="registrationpic" className="img-fluid" />
+                                        <img src={signup} alt="registrationpic" className="img-fluid pr-5 mr-5 mt-5" />
                                     </figure>
                                     <NavLink to="/login" className="signup-image-link">I am already register</NavLink>
                                 </div>
