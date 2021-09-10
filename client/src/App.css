@@ -1,8 +1,10 @@
-body {
+body{
   background-color: #7bbd4d;
 }
 .App-logo {
-  width: 15%;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -10,123 +12,11 @@ body {
     width: 10%;
   }
 }
-/*register css */
-.container {
-  background: #fff;
-  margin: 0 auto;
-  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-  -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-  -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -o-border-radius: 20px;
-  -ms-border-radius: 20px;
-}
-
-.form-title {
-  margin-bottom: 33px;
-  font-weight: bold;
+#navbarSupportedContent{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 }
 
 
-.signup{
-  height: 85vh;
-  display: grid;
- 
-}
-
-.signup-content,.signin-content {
-  padding: 30px 10px;
-}
-.signup-form,
-.signin-form {
-  width: 60%;
-  overflow: hidden;
-}
- 
-.material-icons-name {
-  font-size: 18px;
-}
-
-.signup-form{
-  margin-left: 75px;
-  margin-right: 75px;
-  padding-left: 30px;
-}
-
-.form-group {
-  position: relative;
-  margin-bottom: 25px;
-  overflow: hidden;
-}
-input,textarea {
-  width: 100%;
-  display: block;
-  border: none;
-  border-bottom: 1px solid #999;
-  padding: 6px 30px;
-  font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
-}
-
-input:focus,
-textarea:focus {
-  border-bottom: 1px solid #222 !important;
-}
-label {
-  position: absolute;
-  left: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  color: #222;
-}
-input:focus,
-select:focus,
-textarea:focus {
-  outline: none;
-  box-shadow: none !important;
-  
-}
-.signup-image{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-.signin-image{
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-left: 10px;
-}
-.signup-image-link,.signin-image-link{
-  text-decoration: none;
-  color: black;
-  font-size: large;
-  font-weight: bold;
-}
-@media only screen and (max-width: 400px) {
-  .signup-form,.signin-form {
-    margin-left: 5px;
-    padding-left: 2px;
-    width: 100%;
-  }
- 
-}
-@media only screen and (max-width: 500px) {
-  .signup-form,.signin-form {
-    margin-left: 5px;
-    padding-left: 2px;
-    width: 100%;
-  }
-}
 
 
