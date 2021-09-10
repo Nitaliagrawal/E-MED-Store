@@ -12,7 +12,7 @@ const Signup = () => {
                         <div className="row">
                             <div className="col-md-6 col-sm-7">
                                 <div className="signup-form">
-                                    <h2 className="form-title">Sign up</h2>
+                                    <h2 className="form-title">Sign Up</h2>
                                     <form className="register-form" id="register-form">
                                         <div className="form-group">
                                             <label htmlFor="name">
@@ -67,7 +67,7 @@ const Signup = () => {
                                     <figure>
                                         <img src={signup} alt="registrationpic" className="img-fluid pr-5 mr-5 mt-5" />
                                     </figure>
-                                    <NavLink to="/login" className="signup-image-link">I am already register</NavLink>
+                                    <NavLink to="/login" className="signup-image-link text-center mt-3">I am already Register</NavLink>
                                 </div>
                             </div>
                         </div>

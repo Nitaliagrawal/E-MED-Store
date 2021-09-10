@@ -31,24 +31,18 @@ body {
   font-weight: bold;
 }
 
-.sign-in {
-  height: 90vh;
-  display: grid;
-  place-items: center;
-}
 
-.signup {
+.signup{
   height: 85vh;
   display: grid;
  
 }
 
-.signup-content {
+.signup-content,.signin-content {
   padding: 30px 10px;
 }
 .signup-form,
-.signin-form,
-.signin-image {
+.signin-form {
   width: 60%;
   overflow: hidden;
 }
@@ -57,7 +51,7 @@ body {
   font-size: 18px;
 }
 
-.signup-form {
+.signup-form{
   margin-left: 75px;
   margin-right: 75px;
   padding-left: 30px;
@@ -103,17 +97,32 @@ textarea:focus {
 .signup-image{
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
-
+.signin-image{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 10px;
+}
+.signup-image-link,.signin-image-link{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
 @media only screen and (max-width: 400px) {
-  .signup-form {
+  .signup-form,.signin-form {
     margin-left: 5px;
     padding-left: 2px;
     width: 100%;
   }
+ 
 }
 @media only screen and (max-width: 500px) {
-  .signup-form {
+  .signup-form,.signin-form {
     margin-left: 5px;
     padding-left: 2px;
     width: 100%;
