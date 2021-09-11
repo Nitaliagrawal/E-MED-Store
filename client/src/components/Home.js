@@ -19,6 +19,45 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            <section id="section2" className="container mt-5">
+                    <div class="card-deck">
+                        <div class="row">
+                            <div class="card col-md-4">
+                                <img class="card-img-top w-25 m-4" src="./images/Shape_1.png" alt="" />
+                                <div class="card-body">
+                                    <h5 class="card-title ml-3"><b>Skin Care</b></h5>
+                                    <p class="card-text ml-3 mb-3">It is long established fact that a reader will be
+                                        distracted by the redable content of a page when looking at this layout. </p>
+
+                                </div>
+                            </div>
+                            <div class="card col-md-4">
+                                <img class="card-img-top w-25 m-4" src="./images/Shape_1.png" alt="" />
+                                <div class="card-body">
+                                    <h5 class="card-title ml-3"><b>Multi Vitamins</b></h5>
+                                    <p class="card-text ml-3 mb-3">It is long established fact that a reader will be
+                                        distracted by the redable content of a page when looking at this layout.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="card col-md-4">
+                                <img class="card-img-top w-25 m-4" src="./images/Shape_1.png" alt="" />
+                                <div class="card-body">
+                                    <h5 class="card-title ml-3"><b>Medicines</b></h5>
+                                    <p class="card-text ml-3 mb-3">It is long established fact that a reader will be
+                                        distracted by the redable content of a page when looking at this layout.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+            </section>
+
+
             {/*
      <section id="contactus" className="d-flex align-items-center">
      <div className="container">
