@@ -1,0 +1,41 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home-page h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+
+#contactus h2{
+  color: #7bbd4d;
+  font-size: 40px;
+}
+#contactus .contactus_title{
+  color: #0991cc;
+}
+#contactus .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30pt;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:#3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+#contactus .btn-get-started:hover {
+  background: #3498db;
+  color: black;
+}
+#contactus .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+#section2 .carddeck{
+
+}
