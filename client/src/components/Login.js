@@ -2,9 +2,6 @@ import React from 'react'
 import login from '../images/login.svg';
 import { NavLink } from 'react-router-dom';
 
-
-
-
 const Login = () => {
     return (
        
