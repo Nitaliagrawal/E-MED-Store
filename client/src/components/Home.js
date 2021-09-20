@@ -26,8 +26,8 @@ class Home extends React.Component {
                 </section>
 
                 <section id="section2" className="container mt-5">
-                    <div class="card-deck">
-                        <div class="row" style={{ marginLeft: '40px', textAlign: 'center' }}>
+                    <div className="card-deck" >
+                        <div className="row mx-auto" style={{ marginLeft: '40px', textAlign: 'center' }}>
                             {/* <div class="card col-md-4"> */}
                             <Flippy
                                 flipOnHover={true}
