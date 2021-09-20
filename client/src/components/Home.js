@@ -5,9 +5,7 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import cardImage1 from "../images/c1.jpg"
 import cardImage2 from "../images/c2.jpg"
 import cardImage3 from "../images/c3.jpg"
-import c1 from '../images/c1.jpg';
-import c2 from '../images/c2.jpg';
-import c3 from '../images/c3.jpg';
+
 
 class Home extends React.Component {
     render() {
@@ -101,44 +99,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </section>
-            <section id="section2" className="container mt-5 d-flex justify-content-center">
-                <div className="card-deck">
-                    <div className="row">
-                        <div className="card col-md-4">
-                            <img className="card-img-top w-25 m-4" src={c1} class="center" alt="" />
-                            <div className="card-body">
-                                <h5 className="card-title text-center ml-3"><b>Skin Care</b></h5>
-                                <p className="card-text ml-3 mb-3">It is long established fact that a reader will be
-                                    distracted by the redable content of a page when looking at this layout. </p>
-                                    <a href='#' className='btn btn-outline-success'>order product</a>
-                            </div>
-                        </div>
-                        <div className="card col-md-4">
-                            <img className="card-img-top w-25 m-4" src={c2}  alt="" />
-                            <div className="card-body text-dark">
-                                <h5 className="card-title text-center ml-3"><b>Multi Vitamins</b></h5>
-                                <p className="card-text ml-3 mb-3">It is long established fact that a reader will be
-                                    distracted by the redable content of a page when looking at this layout.
-                                </p>
-                                <a href='#' className='btn btn-outline-success'>order product</a>
-                            </div>
-                        </div>
-                        <div class="card col-md-4">
-                            <img className="card-img-top w-25 m-4" src={c3}  alt="" />
-                            <div className="card-body">
-                                <h5 className="card-title text-center ml-3"><b>Medicines</b></h5>
-                                <p className="card-text ml-3 mb-3">It is long established fact that a reader will be
-                                    distracted by the redable content of a page when looking at this layout.</p>
-                                    <a href='#' className='btn btn-outline-success '>order product</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </section>
-
+            
 
                 {/*
      <section id="contactus" className="d-flex align-items-center">
