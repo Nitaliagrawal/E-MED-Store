@@ -1,17 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import contactusimg from "../images/contact_us.png";
 import img1 from "../images/delivery-package.gif"
-<<<<<<< Updated upstream
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import cardImage1 from "../images/c1.jpg"
 import cardImage2 from "../images/c2.jpg"
 import cardImage3 from "../images/c3.jpg"
-=======
 import c1 from '../images/c1.jpg';
 import c2 from '../images/c2.jpg';
 import c3 from '../images/c3.jpg';
->>>>>>> Stashed changes
 
 class Home extends React.Component {
     render() {
@@ -31,7 +27,6 @@ class Home extends React.Component {
                     </div>
                 </section>
 
-<<<<<<< Updated upstream
                 <section id="section2" className="container mt-5">
                     <div className="card-deck" >
                         <div className="row mx-auto" style={{ marginLeft: '40px', textAlign: 'center' }}>
@@ -106,7 +101,6 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </section>
-=======
             <section id="section2" className="container mt-5 d-flex justify-content-center">
                 <div className="card-deck">
                     <div className="row">
@@ -144,7 +138,6 @@ class Home extends React.Component {
                 </div>
 
             </section>
->>>>>>> Stashed changes
 
 
                 {/*
