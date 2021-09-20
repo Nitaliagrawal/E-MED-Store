@@ -30,26 +30,21 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="contact_info_item d-flex justify-content-start align-items-center">
+             <div className="contact_info_item d-flex justify-content-start align-items-center">
                 <img src="https://img.icons8.com/ultraviolet/24/000000/map-marker.png" alt="" />
                 <div className="contact_info_contect" style={{marginLeft:'10px'}}>
                   <div className="contact_info_title">
                     Address
                   </div>
                   <div className="contact_info_title">
-                    Gopal Vidyanagar, Tarsadi, Gujarat 394350
+                     Tarsadi, Gujarat 394350
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> 
+            </div> 
           </div>
-
-        </div>
-
+        </div> 
       </div>
-
-
-
       <div className="contact_form">
         <div className="container">
           <div className="row">
